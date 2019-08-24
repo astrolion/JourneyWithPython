@@ -3,6 +3,7 @@ grid = [[0 for x in range(9)] for y in range(9)]
 
 class sudoku:
 
+
     def __init__(self):
         grid = [[0 for x in range(9)] for y in range(9)]
 
