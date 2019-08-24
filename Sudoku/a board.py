@@ -27,6 +27,7 @@ def valid_check(X, Y, val):
     x_start *= 3
     y_start *= 3
 
+    # checking 3*3 sub grids
     for i in range(x_start, x_start + 3):
         for j in range(y_start, y_start + 3):
             if grid[i][j] == val:
